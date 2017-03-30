@@ -47,7 +47,7 @@ app.get('/test', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/test.html'));
 });
 // Config dashboard
-var allowInsecureHTTP = false
+var allowInsecureHTTP = true
 
 var dashboard = new ParseDashboard({
   "apps": [
