@@ -63,7 +63,8 @@ var dashboard = new ParseDashboard({
       "user": "vol",
       "pass": "vol"
     }
-  ]
+  ],
+  "allowInsecureHTTP": true,
 }, allowInsecureHTTP);
 
 app.use('/dashboard', dashboard);
