@@ -59,13 +59,13 @@ var dashboardConfig = {
       serverURL: 	mountPath,
       appId: 		'eahx2mXn8qvKe7Ol3XN21388XS8v9IR2',
       masterKey: 	'2l51DrpWdZ98h6O3D7OX8SZObW4EI17O',
-      appName:          'vol-analysis',
+      appName:          'bstar_detection',
     }
   ],
   users: [
     {
-      user:"vol",
-      pass:"vol"
+      user:"bstar",
+      pass:"bstar"
     }
   ]
 }
